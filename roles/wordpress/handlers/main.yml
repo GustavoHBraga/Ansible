@@ -1,0 +1,11 @@
+---
+  - name: restart apache2
+    shell:
+      a2ensite wordpress && a2enmod rewrite && a2dissite 000-default
+    become: yes
+
+  - name: restart apache2
+    service:
+      name: apache2
+      state: restarted
+    become: yes

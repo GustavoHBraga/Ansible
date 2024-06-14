@@ -1,0 +1,8 @@
+---
+wp_db_name: 'wordpress_db'
+wp_db_user: 'wordpress_user'
+wp_db_pass: 12345
+wp_db_ip: '54.175.37.185'
+
+wp_ip: '54.198.75.227'
+wp_path: '/srv/www/wordpress'

@@ -1,0 +1,5 @@
+[wordpress]
+54.198.75.227 ansible_user=ubuntu ansible_ssh_private_key_file='/home/ubuntu/project/Ansible/key/IaC_Ansible'
+
+[mysql]
+54.175.37.185 ansible_user=ubuntu ansible_ssh_private_key_file='/home/ubuntu/project/Ansible/key/IaC_Ansible'
